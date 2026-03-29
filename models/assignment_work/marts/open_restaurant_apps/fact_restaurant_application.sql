@@ -1,0 +1,1 @@
+models/assignment_work/marts/open_restaurant_apps/fct_open_restaurant_apps.sql$0
