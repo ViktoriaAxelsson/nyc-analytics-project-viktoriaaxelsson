@@ -2,7 +2,7 @@ WITH all_locations AS (
    -- Get locations from 311 requests
    SELECT DISTINCT
        borough,
-       zip AS zip_code
+       incident_zip AS zip_code
    FROM {{ ref('stg_nyc_311_dot') }}
    WHERE borough IS NOT NULL
 
